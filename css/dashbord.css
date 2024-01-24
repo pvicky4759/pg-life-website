@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+.profile-container{
+    padding: 100px 150px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.image > img{
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px grey;
+    height: 170px;
+    width: 170px;
+}
+.image{
+    flex-basis: 20%;
+}
+.details{
+    flex-basis: 50%;
+    
+}
+.edit{
+    flex-basis: 30%;
+    text-align: center;
+}
+.link > a{
+    text-decoration: underline;
+    color: midnightblue;
+    
+}
+.link{
+    position: relative;
+    top: 80%;
+    transform: translateY(-50%);
+}
+.detail-info{
+    list-style-type: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0px 10px ;
+}
+.detail-info > li{
+    padding: 2px 5px;
+}
+.myInterest-container{
+    background-color: rgba(255, 227, 227, 0.13);
+    text-align: center;
+    border: 1px solid white;
+    padding-bottom: 50px;
+}
+.head{
+    width: 752px;
+    margin: auto;
+    text-align: left;
+    padding: 60px 0px 0px;
+}
+@media (max-width: 768px) {
+    .filter-bar img {
+        display: block;
+        margin: 0px auto 4px;
+    }
+}
+.property-card {
+    background-color: #ffffff;
+    width: 752px;
+    border-radius: 2px;
+    padding: 15px 0px;
+    margin: 0px auto 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.property-card:focus,
+.property-card:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.image-container {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        padding-bottom: 12px;
+    }
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.star-container i {
+    color: #EA322E;
+    font-size: 10px;
+    margin-right: 6px;
+}
+
+.interested-container {
+    text-align: center;
+}
+
+.interested-container i {
+    color: #EA322E;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.interested-text {
+    font-size: 10px;
+}
+
+.detail-container {
+    padding-bottom: 10px;
+}
+
+.property-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.property-address {
+    color: #6f6f6f;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.property-gender img {
+    width: 40px;
+}
+
+.rent-container {
+    display: flex;
+    align-items: center;
+}
+
+.rent {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.rent-unit {
+    color: #6f6f6f;
+    font-size: 12px;
+}
+
+.button-container .btn {
+    font-size: 14px;
+    border-radius: 0px;
+    width: 140px;
+    float: right;
+}
+@media (max-width: 768px){
+    .profile-container{
+        padding:10px 5px 30px 5px;
+    }
+}
+@media (max-width: 768px){
+    .myInterest-container{
+        padding: 20px 10px;
+    }
+    .property-card{
+        width: 90%;
+    }
+}
+
